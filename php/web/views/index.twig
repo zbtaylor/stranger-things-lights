@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1 id="hh">Happy Halloween!</h1>
+<form method="POST" action="updateMessage.php" id="messageForm">
+  <input name="message" type="text" id="messageBody">
+  <input name="submit" type="submit" value="Change Message" id="messageSubmit">
+</form>
+{% endblock %}
